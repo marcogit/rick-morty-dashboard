@@ -1,17 +1,31 @@
 <template>
   <div
-    class="min-h-screen flex items-center justify-center bg-gray-900 px-4 sm:px-6 lg:px-8"
+    class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8"
   >
     <div
       class="max-w-md w-full space-y-8 bg-gray-800 p-8 rounded-lg shadow-xl border border-gray-700"
     >
-      <div>
-        <h2 class="mt-6 text-center text-3xl font-extrabold text-white">
+      <div class="text-center">
+        <img
+          src="~/assets/img/logo-main.svg"
+          alt="Rick & Morty Dashboard"
+          title="Rick & Morty Dashboard"
+          class="mx-auto h-20 w-auto mb-6"
+        />
+        <h1 class="text-center text-3xl font-extrabold text-white">
           Sign in to your account
-        </h2>
+        </h1>
         <p class="mt-2 text-center text-sm text-gray-400">
-          Enter any email and a password (min 6 chars)
+          Enter your credentials to access the multiverse
         </p>
+
+        <!-- Demo Notice -->
+        <div
+          class="mt-4 p-3 bg-green-900 bg-opacity-20 border border-green-500 rounded-md text-xs text-green-400 text-center"
+        >
+          <p class="font-bold mb-1">DEMO MODE</p>
+          <p>Use any email and a 6+ digit password to sign in.</p>
+        </div>
       </div>
       <form class="mt-8 space-y-6" @submit.prevent="handleLogin">
         <div class="rounded-md shadow-sm -space-y-px">
@@ -50,11 +64,11 @@
         <div>
           <button
             type="submit"
-            class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors"
+            class="btn-portal group w-full px-4 py-2.5 text-base"
           >
             <span class="absolute left-0 inset-y-0 flex items-center pl-3">
               <svg
-                class="h-5 w-5 text-green-500 group-hover:text-green-400"
+                class="h-5 w-5 text-[#97ce4c] group-hover:text-black transition-colors"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"

@@ -1,16 +1,17 @@
 <template>
   <div
-    class="bg-gray-800 rounded-lg overflow-hidden shadow-lg border border-gray-700 transition-transform hover:scale-105"
+    class="bg-gray-800 rounded-lg overflow-hidden shadow-lg border border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(151,206,76,0.7)]"
   >
     <div class="relative">
       <img
         :src="character.image"
         :alt="character.name"
-        class="w-full h-64 object-cover"
+        :title="character.name"
+        class="w-full h-80 object-cover"
         loading="lazy"
       />
       <div
-        class="absolute top-2 right-2 bg-gray-900 bg-opacity-70 p-2 rounded-full cursor-pointer hover:bg-opacity-100 transition-colors"
+        class="absolute top-2 right-2 bg-gray-900 bg-opacity-70 p-2 rounded-full cursor-pointer hover:bg-opacity-100 transition-colors z-10"
         @click="toggleFavorite"
       >
         <svg
@@ -29,22 +30,26 @@
           />
         </svg>
       </div>
-    </div>
-    <div class="p-4">
-      <h3 class="text-xl font-bold text-white mb-1 truncate">
-        {{ character.name }}
-      </h3>
-      <div class="flex items-center mb-2">
-        <span class="h-3 w-3 rounded-full mr-2" :class="statusColor"></span>
-        <span class="text-sm text-gray-300"
-          >{{ character.status }} - {{ character.species }}</span
-        >
-      </div>
-      <div class="text-xs text-gray-400 mt-2">
-        <p>Last known location:</p>
-        <p class="text-gray-200 hover:text-orange-400 transition-colors">
-          {{ character.location.name }}
-        </p>
+      <div
+        class="absolute bottom-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-4 pt-12"
+      >
+        <h2 class="text-white mb-1 truncate">
+          {{ character.name }}
+        </h2>
+        <div class="flex items-center mb-2">
+          <span class="h-3 w-3 rounded-full mr-2" :class="statusColor"></span>
+          <span class="text-sm text-gray-200"
+            >{{ character.status }} - {{ character.species }}</span
+          >
+        </div>
+        <div class="text-xs text-gray-400 mt-2">
+          <p>Last known location:</p>
+          <p
+            class="text-gray-200 hover:text-orange-400 transition-colors truncate"
+          >
+            {{ character.location.name }}
+          </p>
+        </div>
       </div>
     </div>
   </div>

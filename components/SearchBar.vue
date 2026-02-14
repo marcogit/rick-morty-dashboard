@@ -4,7 +4,7 @@
       class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
     >
       <svg
-        class="h-5 w-5 text-gray-400"
+        class="h-5 w-5 text-gray-200"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
@@ -23,7 +23,7 @@
         $emit('update:modelValue', ($event.target as HTMLInputElement).value)
       "
       type="text"
-      class="block w-full pl-10 pr-3 py-2 border border-gray-600 rounded-md leading-5 bg-gray-700 text-gray-300 placeholder-gray-400 focus:outline-none focus:bg-gray-600 focus:border-green-500 focus:ring-1 focus:ring-green-500 sm:text-sm transition-colors"
+      class="block w-full pl-10 pr-3 py-2 border border-gray-600 rounded-md leading-5 bg-black bg-opacity-50 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-[#97ce4c] focus:shadow-[0_0_15px_rgba(151,206,76,0.5)] transition-all duration-300 sm:text-sm"
       placeholder="Search characters by name..."
     />
   </div>

@@ -6,14 +6,14 @@
       <button
         @click="$emit('prev')"
         :disabled="!hasPrev"
-        class="relative inline-flex items-center px-4 py-2 border border-gray-600 text-sm font-medium rounded-md text-gray-300 bg-gray-800 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+        class="btn-portal px-6 py-3"
       >
         Previous
       </button>
       <button
         @click="$emit('next')"
         :disabled="!hasNext"
-        class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-600 text-sm font-medium rounded-md text-gray-300 bg-gray-800 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+        class="btn-portal ml-3 px-6 py-3"
       >
         Next
       </button>
@@ -28,13 +28,13 @@
       </div>
       <div>
         <nav
-          class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px"
+          class="relative z-0 inline-flex shadow-sm space-x-2"
           aria-label="Pagination"
         >
           <button
             @click="$emit('prev')"
             :disabled="!hasPrev"
-            class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-600 bg-gray-800 text-sm font-medium text-gray-400 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="btn-portal px-4 py-2.5"
           >
             <span class="sr-only">Previous</span>
             <svg
@@ -55,7 +55,7 @@
           <button
             @click="$emit('next')"
             :disabled="!hasNext"
-            class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-600 bg-gray-800 text-sm font-medium text-gray-400 hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="btn-portal px-4 py-2.5"
           >
             <span class="sr-only">Next</span>
             <svg
