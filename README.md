@@ -1,5 +1,6 @@
 # Rick and Morty Character Dashboard
 
+[Check the Walkthrough & Visual Documentation here!](./WALKTHROUGH.md)
 A dashboard application built with **Nuxt 3**, **Pinia**, and **Tailwind CSS** to manage characters from the Rick and Morty API. This project demonstrates authentication flow, state management, API consumption, and responsive UI implementation.
 
 ## 🚀 Tech Stack
