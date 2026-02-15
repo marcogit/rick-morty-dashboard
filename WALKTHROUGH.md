@@ -95,3 +95,30 @@ _Pagination controls with improved accessibility padding and spacing_
 
 ![Final UI Walkthrough](./docs/assets/final_ui_walkthrough_1771112314486.webp)
 _Full application demonstration walkthough_
+
+---
+
+## 🥒 "I'M PICKLE RIIIIIIIICK!"
+
+```text
+           __________
+       _.-'          '-._
+     .'      _...._      '.
+    /    _.-'      '-._    \
+   /   .'              '.   \
+  |   /      0    0      \   |
+  |  |       \____/       |  |
+  |  |         ||         |  |
+  |  |   \____________/   |  |
+  |   \       \  /       /   |
+   \   '.      \/      .'   /
+    \    '-._      _.-'    /
+     '.      ''''''      .'
+       '-.____________.-'
+          |  010011  |
+          |  101100  |
+          |  110011  |
+          |  PICKLE  |
+          |  RICK!   |
+           \________/
+```
