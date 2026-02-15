@@ -53,7 +53,7 @@ Total Estimated Time: **~6 Hours**
 - **Header**: Customized fixed header with transparent-to-black gradient and SVG logo.
 - **Footer**: Sticky footer with black-to-transparent gradient and centered info.
 - **SEO**: Full meta tag configuration (Title, Description, Keywords, Canonical, Robots).
-- **Accessibility**: Image `alt` and `title` attributes throughout. Improved pagination padding for touch targets.
+- **Accessibility**: Image `alt` and `title` attributes throughout. Improved pagination padding and homogenized mobile menu button heights. Centered headings on mobile for better visual balance.
 
 ## Verification Scenarios
 
