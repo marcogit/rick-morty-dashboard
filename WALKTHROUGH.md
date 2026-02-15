@@ -6,6 +6,18 @@ This project is a Vue.js application using **Nuxt 3**, **Pinia**, and **Tailwind
 
 Everything has been verified to be working correctly, including the latest UI customizations for a premium look and feel.
 
+## ⏱️ Development Time Breakdown
+
+Total Estimated Time: **~6 Hours**
+
+| Phase                   | Duration | Tasks                                                                         |
+| :---------------------- | :------- | :---------------------------------------------------------------------------- |
+| **1. Planning & Base**  | 1h       | Requirements analysis, Nuxt 3 setup, Pinia architecture, Auth middleware.     |
+| **2. Core Logic**       | 1.5h     | API integration, dynamic search, reactive pagination, favorites store.        |
+| **3. UI/UX Refinement** | 2h       | Character cards redesign, portal-style buttons, responsive layout, dark mode. |
+| **4. Polishing**        | 1h       | Mobile horizontal padding, login demo notice, ASCII art, accessibility audit. |
+| **5. Deployment**       | 0.5h     | Vercel configuration, documentation (README/Walkthrough), media capture.      |
+
 ## Features
 
 ### 1. Authentication

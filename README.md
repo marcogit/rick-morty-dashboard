@@ -1,7 +1,13 @@
 # Rick and Morty Character Dashboard
 
+**🚀 Live Demo: [https://rick-morty-dashboard-lac.vercel.app/](https://rick-morty-dashboard-lac.vercel.app/)**
+
 [Check the Walkthrough & Visual Documentation here!](./WALKTHROUGH.md)
-A dashboard application built with **Nuxt 3**, **Pinia**, and **Tailwind CSS** to manage characters from the Rick and Morty API. This project demonstrates authentication flow, state management, API consumption, and responsive UI implementation.
+This project is a Vue.js application using **Nuxt 3**, **Pinia**, and **Tailwind CSS** to interact with the Rick and Morty API. It demonstrates core frontend development concepts including authentication patterns, state management, API integration, and responsive data visualization.
+
+**🚀 Live Demo: [https://rick-morty-dashboard-lac.vercel.app/](https://rick-morty-dashboard-lac.vercel.app/)**
+
+Everything has been verified to be working correctly, including the latest UI customizations for a premium look and feel.
 
 ## 🚀 Deployment
 
