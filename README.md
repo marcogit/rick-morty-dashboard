@@ -3,7 +3,25 @@
 [Check the Walkthrough & Visual Documentation here!](./WALKTHROUGH.md)
 A dashboard application built with **Nuxt 3**, **Pinia**, and **Tailwind CSS** to manage characters from the Rick and Morty API. This project demonstrates authentication flow, state management, API consumption, and responsive UI implementation.
 
-## 🚀 Tech Stack
+## 🚀 Deployment
+
+The easiest way to deploy this Nuxt 3 project is using **Vercel** or **Netlify**.
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com/new).
+3. Import your repository.
+4. Vercel will automatically detect Nuxt 3 and configure the build settings.
+5. Click **Deploy**.
+
+### Deploy to Netlify
+
+1. Push your code to a GitHub repository.
+2. Go to [Netlify](https://app.netlify.com/start).
+3. Connect your GitHub account and select the repository.
+4. Settings should be auto-detected (Build command: `npm run build`, Publish directory: `dist` or `.output/public`).
+5. Click **Deploy site**.
 
 - **Framework**: [Nuxt 3](https://nuxt.com/) (Vue 3 + Composition API)
 - **State Management**: [Pinia](https://pinia.vuejs.org/)
