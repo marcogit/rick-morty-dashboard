@@ -3,7 +3,7 @@
     <div
       class="mb-6 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0"
     >
-      <h1 class="text-white">Characters</h1>
+      <h1 class="text-white text-center sm:text-left">Characters</h1>
       <SearchBar v-model="search" />
     </div>
 

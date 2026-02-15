@@ -77,7 +77,7 @@
       <div class="px-2 pt-2 pb-3 space-y-2 sm:px-3">
         <NuxtLink
           to="/"
-          class="btn-portal block w-full text-center"
+          class="btn-portal block w-full text-center py-3"
           :class="{ active: $route.path === '/' }"
           @click="isOpen = false"
         >
@@ -85,7 +85,7 @@
         </NuxtLink>
         <NuxtLink
           to="/favorites"
-          class="btn-portal block w-full text-center"
+          class="btn-portal block w-full text-center py-3"
           :class="{ active: $route.path === '/favorites' }"
           @click="isOpen = false"
         >

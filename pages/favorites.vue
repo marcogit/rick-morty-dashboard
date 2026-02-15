@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-white mb-6">My Favorites</h1>
+    <h1 class="text-white text-center sm:text-left mb-6">My Favorites</h1>
 
     <div
       v-if="favorites.length === 0"
